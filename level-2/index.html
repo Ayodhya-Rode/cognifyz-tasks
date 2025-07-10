@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Responsive Contact Page</title>
+  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css" />
+</head>
+<body>
+
+  <header>
+    <div class="logo">MySite</div>
+    <nav class="nav-links">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hamburger">&#9776;</div>
+  </header>
+
+  <main class="contact-section">
+
+    <div class="contact-image">
+      <div>
+        <div><i class="bi bi-geo-alt-fill"></i></div>
+        <div>
+          <div>Address</div>
+          <div>123, D-block, Shivbagh, Ameerpet - 234567</div>
+        </div>
+      </div>
+
+      <div>
+        <div><i class="bi bi-telephone-fill"></i></div>
+        <div>
+          <div>Phone</div>
+          <div>123-456-6789, 07-6543</div>
+        </div>
+      </div>
+
+      <div>
+        <div><i class="bi bi-envelope"></i></div>
+        <div>
+          <div>Email</div>
+          <div>contactus@gmail.com</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-form">
+      <form id="contactForm">
+        <h3>Send Message</h3>
+
+        <label for="name">Full Name</label>
+        <input type="text" placeholder="Your Name" id="name" />
+
+        <label for="email">Email</label>
+        <input type="email" placeholder="Your Email" id="email" />
+
+        <label for="message">Message</label>
+        <textarea placeholder="Your Message" id="message"></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+
+  </main>
+
+  <script src="./index.js"></script>
+</body>
+</html>

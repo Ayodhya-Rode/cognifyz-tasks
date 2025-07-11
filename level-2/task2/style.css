@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border: 2px solid red;
+}
+
+div{
+    border: 2px solid rgb(166, 0, 255);
+    background-color: rgb(130, 243, 245);
+    height:300px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+button{
+    padding: 5px 10px;
+    margin: 10px;
+}
+
+button:hover {
+    transform: scale(1.20);
+}

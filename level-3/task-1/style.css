@@ -1,0 +1,20 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+#user-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 500px;
+}
+
+.user-card {
+  padding: 10px;
+  background: white;
+  border-left: 5px solid #4caf50;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
